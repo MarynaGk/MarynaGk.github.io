@@ -1,0 +1,83 @@
+
+body {
+  background: url(2.jpg) no-repeat top left;
+  font-family: Montserrat;
+  margin: 20px;
+}
+
+.top-menu {
+    float: left;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 30px;
+
+}
+
+.top-menu-item {
+  letter-spacing: 4px;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.top-menu-item-active {
+  letter-spacing: 4px;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: rebeccapurple;
+  background-color: white;
+}
+
+.transparent {
+  float: left;
+  width: 75%;
+  background:rgba(255,255,255,0.6);
+  border-radius: 15px;
+  margin-top: 30px;
+}
+
+.heading {
+  /* float: left; */
+  font-size: larger;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px 20px 0 20px;
+}
+
+.main-content {
+  /* float: left;
+  width: 75%; */
+    margin: 20px;
+    text-align: justify;
+}
+
+.right-column {
+  float: right;
+  width: 20%;
+  background:rgba(255,255,255,0.6);
+  border-radius: 15px;
+  margin-top: 115px;
+  /* padding: 10px; */
+}
+
+td {
+  vertical-align: top;
+  text-align: justify;
+}
+
+.my-photo {
+    border-radius: 50%;
+    height: auto;
+    width: 80%;
+    display: flex;
+    margin:auto;
+    margin-top: 20px;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(http://fonts.gstatic.com/s/montserrat/v12/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2);
+}
