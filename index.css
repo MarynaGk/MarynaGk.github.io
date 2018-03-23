@@ -1,9 +1,10 @@
 
 body {
-  background: url(2.jpg) no-repeat top left;
+  background-color: #CDB4FF;
   font-family: Montserrat;
-  font-size: 100%;
+  font-size: 90%;
   margin: 1.8em;
+  font-color: #130016;
 }
 
 .top-menu {
@@ -18,37 +19,42 @@ body {
 
 .top-menu-item {
   letter-spacing: 4px;
+  font-size: 140%;
   font-weight: bold;
-  margin-left: 10px;
-  margin-right: 10px;
-  color: black;
+  padding: 8px;
+  color: #dd3700;
   text-decoration: none;
 }
 
 .top-menu-item-active {
   letter-spacing: 4px;
+  font-size: 140%;
   font-weight: bold;
-  margin-left: 10px;
-  margin-right: 10px;
-  color: rebeccapurple;
-  background-color: white;
+  padding: 8px;
+  color: white;
+  background-color: #dd3700;
+  border-radius: 5px;
 }
 
 .transparent {
   float: left;
   width: 75%;
-  background:rgba(255,255,255,0.6);
+  background:rgba(255,255,255,0.4);
   border-radius: 5px;
   margin-top: 30px;
 }
 
 .heading {
-  /* float: left; */
-  font-size: larger;
+  font-size: 130%;
   font-weight: bold;
   text-align: center;
   margin: 20px 20px 0 20px;
-  /*border: 1px solid blue;*/
+}
+
+.sub-heading {
+  font-size: 115%;
+  font-weight: bold;
+  margin: 10px 20px 0 20px;
 }
 
 .main-content {
@@ -65,15 +71,14 @@ body {
   width: 18%;
   padding: 10px;
   display: flex;
-  justify-content: space-between;
-  color: tomato;
+  justify-content: center;
 }
 
 
 .right-column {
   float: right;
   width: 20%;
-  background:rgba(255,255,255,0.6);
+  background:rgba(255,255,255,0.4);
   border-radius: 5px;
   clear: right;
   margin-top: 30px;
@@ -90,13 +95,16 @@ td {
 .my-photo {
     height: auto;
     width: 100%;
+    /* min-width: 100px; */
+    image-orientation: 90deg;
     display: flex;
     margin: auto;
     margin-top: 20px;
 }
 
 .icon {
-  color: tomato;
+  color: #dd3700;
+  margin: 10px;
 }
 
 .container {
@@ -112,6 +120,7 @@ td {
   z-index: -1;
   overflow: hidden;
 }
+
 
 @font-face {
     font-family: Montserrat;
