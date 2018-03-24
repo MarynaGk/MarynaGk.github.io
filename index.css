@@ -3,85 +3,174 @@ body {
   background-color: #CDB4FF;
   font-family: Montserrat;
   font-size: 90%;
-  margin: 1.8em;
+  margin: 0;
   font-color: #130016;
 }
 
-.top-menu {
+  .top-menu {
     float: left;
-    width: 70%;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
-    margin: 0;
-    padding: 30px;
+    font-size: 1.2em;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    background-color: #A4D9D6;
+    list-style-type:none;
+    position: absolute;
+    margin-top: 1.5em;
+    padding-top: 0.4em;
+}
+
+.menu-block{
+  width: 75%;
+  padding-left: 3em;
 
 }
 
 .top-menu-item {
-  letter-spacing: 4px;
-  font-size: 140%;
-  font-weight: bold;
   padding: 8px;
   color: #dd3700;
   text-decoration: none;
 }
 
-.top-menu-item-active {
-  letter-spacing: 4px;
-  font-size: 140%;
-  font-weight: bold;
+.mobile-menu-item {
   padding: 8px;
-  color: white;
-  background-color: #dd3700;
-  border-radius: 5px;
+  color: #dd3700;
+  text-decoration: none;
+  display:inline-block;
+  float: left;
+  margin-right: 1px;
+}
+
+.top-menu-item-active {
+  font-weight: bold;
+  padding: 0.6em;
+  color: #425749;
+}
+
+.mobile-menu-item-active {
+  font-weight: bold;
+  padding: 0.6em;
+  color: #425749;
+  text-decoration: none;
+  display:inline-block;
+  float: left;
+  margin-right: 1px;
+}
+
+    #menu {
+    display: none;
+}
+
+.mobile-menu-item {
+display: none;
+}
+
+.mobile-menu-item-active {
+display: none;
+}
+
+input[type=checkbox]{
+    display: none;
+}
+
+input[type=checkbox]:checked ~ #menu{
+    display: block;
+}
+
+.show-menu {
+    text-decoration: none;
+    color: #fff;
+    background: #19c589;
+    text-align: center;
+    padding: 10px 0;
+    display: none;
 }
 
 .transparent {
   float: left;
   width: 75%;
-  background:rgba(255,255,255,0.4);
+  /* background:rgba(255,255,255,0.4); */
   border-radius: 5px;
-  margin-top: 30px;
+  margin: 1em 0 0 1em;
+}
+
+@media screen and (max-width : 760px){
+    #menu {
+        position: static;
+        display: none;
+    }
+
+    .top-menu {
+        position: static;
+        display: none;
+    }
+
+    .right-column {
+        position: static;
+        display: none;
+    }
+
+
+    .mobile-menu {
+        display:block;
+        width: 100%;
+    }
+    .mobile-menu-item {
+        background: #19c589;
+        display:block;
+        width: 100%;
+    }
+    .mobile-menu-item-active {
+        display:block;
+        width: 100%;
+    }
+
+    .show-menu {
+        display:block;
+    }
+
+    .transparent {
+      width: 100%;
+    }
+}
+
+#bread-crumb {
+  padding: 4.9em 0 0 1.1em;
+  color: #314137;
+  font-size: 0.9em;
+  font-style: italic;
 }
 
 .heading {
-  font-size: 130%;
+  font-size: 1.1em;
   font-weight: bold;
   text-align: center;
-  margin: 20px 20px 0 20px;
+  margin: 1.1em 1.1em 0 1.1em;
+  color: #425749;
 }
 
 .sub-heading {
-  font-size: 115%;
+  font-size: 1em;
   font-weight: bold;
-  margin: 10px 20px 0 20px;
+  margin: 0.6em 1.1em 0 1.1em;
+  color: #425749;
 }
 
 .main-content {
-  /* float: left;
-  width: 75%; */
-    margin: 20px;
+    margin: 1.1em;
     text-align: justify;
-    /*border: 1px solid green;*/
+    color: #314137;
 }
-
-.top-right-corner {
-  float: right;
-  clear: right;
-  width: 18%;
-  padding: 10px;
-  display: flex;
-  justify-content: center;
-}
-
 
 .right-column {
   float: right;
   width: 20%;
+  height: 100%;
   background:rgba(255,255,255,0.4);
-  border-radius: 5px;
   clear: right;
-  margin-top: 30px;
+  margin-top: 0;
+  margin-right: 1.5em;
   /*border: 1px solid red;*/
   /* margin-top: 115px; */
   /* padding: 10px; */
@@ -99,30 +188,29 @@ td {
     image-orientation: 90deg;
     display: flex;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 4em;
 }
 
 .icon {
   color: #dd3700;
-  margin: 10px;
+  float: right;
+  width: 25%;
+  font-size: 1.1em;
 }
 
-.container {
-  position: relative;
-}
 
-.background {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  z-index: -1;
-  overflow: hidden;
+.footer {
+  float: left;
+  width: 100%;
+  text-align: center;
+  margin-top: 1.8em;
+  padding: 0.8em 0 0.8em 0;
+  font-size: 0.9em;
+  color: grey;
+  border-top: 1px solid grey;
 }
-
 
 @font-face {
     font-family: Montserrat;
-    src: url(http://fonts.gstatic.com/s/montserrat/v12/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2);
+    src: url(https://fonts.gstatic.com/s/montserrat/v12/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2);
 }
