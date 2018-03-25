@@ -33,30 +33,11 @@ body {
   text-decoration: none;
 }
 
-/* .mobile-menu-item {
-  padding: 0.6em;
-  color: #dd3700;
-  text-decoration: none;
-  display:inline-block;
-  float: left;
-  margin-right: 1px;
-} */
-
 .top-menu-item-active {
   font-weight: bold;
   padding: 0.6em;
   color: #425749;
 }
-
-/* .mobile-menu-item-active {
-  font-weight: bold;
-  padding: 0.6em;
-  color: #425749;
-  text-decoration: none;
-  display:inline-block;
-  float: left;
-  margin-right: 1px;
-} */
 
     #menu {
     display: none;
@@ -84,6 +65,7 @@ input[type=checkbox]:checked ~ #menu{
     background: #83ae92;
     text-align: center;
     font-weight: bold;
+    text-transform: uppercase;
     padding: 10px 0;
     display: none;
     margin-right: 70%;
@@ -95,6 +77,16 @@ input[type=checkbox]:checked ~ #menu{
   /* background:rgba(255,255,255,0.4); */
   border-radius: 5px;
   margin: 1em 0 0 1em;
+}
+
+.right-column {
+  float: right;
+  width: 20%;
+  height: 100%;
+  background:rgba(255,255,255,0.4);
+  clear: right;
+  margin-top: 0;
+  margin-right: 1.5em;
 }
 
 @media screen and (max-width : 1137px){
@@ -119,7 +111,7 @@ input[type=checkbox]:checked ~ #menu{
 
     .mobile-menu {
         display:block;
-        width: 20%;
+        /* width: 20%; */
     }
     .mobile-menu-item {
         background: #A4D9D6;
@@ -130,6 +122,7 @@ input[type=checkbox]:checked ~ #menu{
         text-transform: uppercase;
         margin-right: 70%;
         margin-bottom: 1px;
+        padding: 0.2em 0;
     }
     .mobile-menu-item-active {
         background: #A4D9D6;
@@ -139,6 +132,7 @@ input[type=checkbox]:checked ~ #menu{
         display:block;
         text-align: center;
         text-transform: uppercase;
+        padding: 0.2em 0;
         margin-right: 70%;
         margin-bottom: 1px;
     }
@@ -148,7 +142,7 @@ input[type=checkbox]:checked ~ #menu{
     }
 
     .transparent {
-      width: 100%;
+      width: 98%;
     }
 }
 
@@ -158,6 +152,12 @@ input[type=checkbox]:checked ~ #menu{
   font-size: 0.9em;
   font-style: italic;
 }
+
+#bread-crumb-link {
+    text-decoration: none;
+    color: #dd3700;
+}
+
 
 .heading {
   font-size: 1.1em;
@@ -182,18 +182,6 @@ input[type=checkbox]:checked ~ #menu{
     color: #314137;
 }
 
-.right-column {
-  float: right;
-  width: 20%;
-  height: 100%;
-  background:rgba(255,255,255,0.4);
-  clear: right;
-  margin-top: 0;
-  margin-right: 1.5em;
-  /*border: 1px solid red;*/
-  /* margin-top: 115px; */
-  /* padding: 10px; */
-}
 
 td {
   vertical-align: top;
@@ -203,7 +191,7 @@ td {
 .my-photo {
     height: auto;
     width: 80%;
-    /* min-width: 100px; */
+    max-width: 200px;
     border-radius: 50%;
     image-orientation: 90deg;
     display: flex;

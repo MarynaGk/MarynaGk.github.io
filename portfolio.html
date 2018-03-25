@@ -1,26 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <title>Maryna Golovko - junior full stack web-developer - Portfolio</title>
+  <meta name="description" content="Brief description of the projects I've done">
   <meta charset="utf-8">
   <link rel="stylesheet" href="index.css">
   <link rel="icon"
         type="image/png"
         href="favicon.ico">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
 </head>
+
 <body>
 
-<div class='top-menu'>
-  <span class='top-menu-item'><a href="index.html">EXPERIENCE</a></span>
-  <span class='top-menu-item-active'>PORTFOLIO</span>
-  <span class='top-menu-item'><a href="blog.html">BLOG</a></span>
-</div>
+<nav>
+    <label for="show-menu" class="show-menu">Menu</label>
+    <input type="checkbox" id="show-menu" role="button">
+      <div class="top-menu">
+        <div class="menu-block">
+        <a href="index.html" class='top-menu-item'><span>Experience</span></a>
+        <span class='top-menu-item'> | <span>
+        <span class='top-menu-item-active'>Portfolio</span>
+        <span class='top-menu-item'> | <span>
+        <a href="blog.html" class='top-menu-item'><span>Blog</span></a>
+        </div>
+        <div class="icon">
+          <a href="https://github.com/marynagk" target="_blank" class="icon"><span class="fab fa-github"></span> </a>
+          <a href="https://au.linkedin.com/in/marynagolovko" target="_blank" class='icon'><span class="fab fa-linkedin"></span> </a>
+        </div>
+      </div>
+      <div id="menu">
+        <a href="index.html" class='mobile-menu-item'><span>Experience</span></a>
+        <span class='mobile-menu-item-active'>Portfolio</span>
+        <a href="blog.html" class='mobile-menu-item'><span>Blog</span></a>
+        <a href="about.html" class='mobile-menu-item'><span>About</span></a>
+        <a href="https://github.com/marynagk" target="_blank" class='mobile-menu-item'><span>gitHub</span></a>
+        <a href="https://au.linkedin.com/in/marynagolovko" target="_blank" class='mobile-menu-item'><span>LinkedIn</span></a>
+      </div>
+</nav>
 
 <div class='right-column'>
-  <div class='heading'>Who I am</div>
-  <img src='images.jpg' alt='My photo' class='my-photo'>
-  <div class='main-content'>Hi, my name is <b>Maryna Golovko</b>.</br>I am a junior full stack web developer with BA & QA background and passion for technologies</div>
+  <img src='me.JPG' alt='My photo' class='my-photo'>
+  <div class='main-content'>Hi,</br>I am <b>Maryna Golovko</b>, junior full stack web developer with BA & QA background and passion for technologies</div>
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLSdQjYGlth5cjcgLhYCveWCr9YbRnJb2Z8msmU6I89JHGTnmnA/viewform?usp=pp_url&entry.1525437107&entry.1186982162" target="_blank" class="link">Contact me >></a>
 </div>
 
+<div id='bread-crumb'>My Projects</div>
 <div class='transparent'>
   <div class='heading'>Skills Summary</div>
   <div class='main-content'>
@@ -49,21 +74,22 @@
   </div>
 </div>
 
-  <div class='transparent'>
-    <div class='heading'>Experience</div>
-    <div class='main-content'>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-      fringilla erat eu diam tristique, nec suscipit leo maximus. Donec laoreet
-      magna arcu, vel tincidunt ante aliquam quis. Aenean sit amet lectus pulvinar,
-      viverra odio eget, auctor mauris. Phasellus et nunc ac leo suscipit
-      consectetur. Nulla facilisi. Pellentesque bibendum, metus non volutpat
-      posuere, urna leo luctus velit, nec dictum magna dolor at nunc. Nulla tellus
-      enim, accumsan vitae aliquet sed, dictum a elit. Nam egestas vestibulum erat,
-      venenatis auctor libero eleifend quis. Vivamus mattis nisi nec porta egestas.
-      Proin interdum nisl a augue ullamcorper sodales. Ut pulvinar felis vel augue
-      congue euismod. Vivamus et nulla cursus, molestie augue in, viverra nibh.
-      Suspendisse quis purus vitae metus dapibus pellentesque.
-    </div>
+<div class='transparent'>
+  <div class='heading'>Experience</div>
+  <div class='sub-heading'>Experience</div>
+  <div class='main-content'>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+    fringilla erat eu diam tristique, nec suscipit leo maximus. Donec laoreet
+    magna arcu, vel tincidunt ante aliquam quis. Aenean sit amet lectus pulvinar,
+    viverra odio eget, auctor mauris. Phasellus et nunc ac leo suscipit
+    consectetur. Nulla facilisi. Pellentesque bibendum, metus non volutpat
+    posuere, urna leo luctus velit, nec dictum magna dolor at nunc. Nulla tellus
+    enim, accumsan vitae aliquet sed, dictum a elit. Nam egestas vestibulum erat,
+    venenatis auctor libero eleifend quis. Vivamus mattis nisi nec porta egestas.
+    Proin interdum nisl a augue ullamcorper sodales. Ut pulvinar felis vel augue
+    congue euismod. Vivamus et nulla cursus, molestie augue in, viverra nibh.
+    Suspendisse quis purus vitae metus dapibus pellentesque.
+  </div>
 </div>
 
 <div class='transparent'>
@@ -82,6 +108,7 @@
     Suspendisse quis purus vitae metus dapibus pellentesque.
   </div>
 </div>
+<div class='footer'>Copyright © 2018 Maryna Golovko. All rights reserved.</div>
 
 </body>
 </html>
