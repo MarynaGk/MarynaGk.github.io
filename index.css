@@ -1,0 +1,255 @@
+
+body {
+  background-color: #CDB4FF;
+  font-family: Montserrat;
+  font-size: 90%;
+  margin: 0;
+  font-color: #130016;
+}
+
+  .top-menu {
+    float: left;
+    width: 100%;
+    display: flex;
+    font-size: 1.2em;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    background-color: #A4D9D6;
+    list-style-type:none;
+    position: absolute;
+    margin-top: 1.5em;
+    padding-top: 0.4em;
+}
+
+.menu-block{
+  width: 75%;
+  padding-left: 3em;
+  padding-top: 0.5em;
+}
+
+.top-menu-item {
+  padding: 0.8em;
+  color: #dd3700;
+  text-decoration: none;
+}
+
+.top-menu-item-active {
+  font-weight: bold;
+  padding: 0.6em;
+  color: #425749;
+}
+
+    #menu {
+    display: none;
+}
+
+.mobile-menu-item {
+display: none;
+}
+
+.mobile-menu-item-active {
+display: none;
+}
+
+input[type=checkbox]{
+    display: none;
+}
+
+input[type=checkbox]:checked ~ #menu{
+    display: block;
+}
+
+.show-menu {
+    text-decoration: none;
+    color: #dd3700;
+    background: #83ae92;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 0;
+    display: none;
+    margin-right: 70%;
+}
+
+.transparent {
+  float: left;
+  width: 75%;
+  /* background:rgba(255,255,255,0.4); */
+  border-radius: 5px;
+  margin: 1em 0 0 1em;
+}
+
+.transparent-about {
+  float: left;
+  width: 98%;
+  /* background:rgba(255,255,255,0.4); */
+  margin: 1em 0 0 1em;
+}
+
+.right-column {
+  float: right;
+  width: 20%;
+  height: 100%;
+  background:rgba(255,255,255,0.4);
+  clear: right;
+  margin-top: 0;
+  margin-right: 1.5em;
+}
+
+@media screen and (max-width : 1137px){
+    #menu {
+        position: static;
+        display: none;
+    }
+
+    .top-menu {
+        position: static;
+        display: none;
+    }
+
+    .right-column {
+        position: static;
+        display: none;
+    }
+
+    #bread-crumb {
+      margin-top: -6.2em;
+    }
+
+    .mobile-menu {
+        display:block;
+        /* width: 20%; */
+    }
+    .mobile-menu-item {
+        background: #A4D9D6;
+        color: #dd3700;
+        display:block;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        margin-right: 70%;
+        margin-bottom: 1px;
+        padding: 0.2em 0;
+    }
+    .mobile-menu-item-active {
+        background: #A4D9D6;
+        color: #425749;
+        text-decoration: none;
+        font-weight: bold;
+        display:block;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 0.2em 0;
+        margin-right: 70%;
+        margin-bottom: 1px;
+    }
+
+    .show-menu {
+        display:block;
+    }
+
+    .transparent {
+      width: 98%;
+    }
+}
+
+#bread-crumb {
+  padding: 6.9em 0 0 2.5em;
+  color: #314137;
+  font-size: 0.9em;
+  font-style: italic;
+}
+
+#bread-crumb-link {
+    text-decoration: none;
+    color: #dd3700;
+}
+
+
+.heading {
+  font-size: 1.1em;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 1.1em 0 1.1em;
+  padding-top: 1.1em;
+  color: #425749;
+  border-top: 1px solid grey;
+}
+
+.sub-heading {
+  font-size: 1em;
+  font-weight: bold;
+  margin: 0.6em 1.1em 0 1.1em;
+  color: #425749;
+}
+
+.main-content {
+    margin: 1.1em;
+    text-align: justify;
+    color: #314137;
+}
+
+
+td {
+  vertical-align: top;
+  text-align: justify;
+}
+
+.my-photo {
+    height: auto;
+    width: 80%;
+    max-width: 200px;
+    border-radius: 50%;
+    image-orientation: 90deg;
+    display: flex;
+    margin: auto;
+    margin-top: 10em;
+    margin-bottom: 2em;
+}
+
+.my-photo-about {
+    height: auto;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 50%;
+    image-orientation: 90deg;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.link {
+text-decoration: none;
+float: right;
+font-size: 1em;
+font-weight: bold;
+margin: 1em 1em 2em 0;
+color: #dd3700;
+
+}
+
+.icon {
+  color: #dd3700;
+  float: right;
+  width: 22%;
+  font-size: 1.5em;
+}
+
+
+.footer {
+  float: left;
+  width: 100%;
+  text-align: center;
+  margin-top: 1.8em;
+  padding: 0.8em 0 0.8em 0;
+  font-size: 0.9em;
+  color: grey;
+  border-top: 1px solid grey;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(https://fonts.gstatic.com/s/montserrat/v12/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2);
+}
