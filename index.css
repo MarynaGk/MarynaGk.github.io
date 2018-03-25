@@ -165,6 +165,22 @@ input[type=checkbox]:checked ~ #menu{
     color: #dd3700;
 }
 
+a {
+    text-decoration: none;
+    color: #dd3700;
+}
+
+/* .pics {
+  max-width: 50%;
+  float:left;
+  margin: 0.5em 0.5em 0.5 em 0;
+} */
+
+img {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
 
 .heading {
   font-size: 1.1em;
@@ -193,6 +209,10 @@ input[type=checkbox]:checked ~ #menu{
 td {
   vertical-align: top;
   text-align: justify;
+}
+
+tr {
+    margin: 1em;
 }
 
 .my-photo {

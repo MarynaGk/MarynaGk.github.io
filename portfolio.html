@@ -40,74 +40,39 @@
 </nav>
 
 <div class='right-column'>
-  <img src='me.JPG' alt='My photo' class='my-photo'>
+  <img src='img/me.JPG' alt='My photo' class='my-photo'>
   <div class='main-content'>Hi,</br>I am <b>Maryna Golovko</b>, junior full stack web developer with BA & QA background and passion for technologies</div>
   <a href="https://docs.google.com/forms/d/e/1FAIpQLSdQjYGlth5cjcgLhYCveWCr9YbRnJb2Z8msmU6I89JHGTnmnA/viewform?usp=pp_url&entry.1525437107&entry.1186982162" target="_blank" class="link">Contact me >></a>
 </div>
 
 <div id='bread-crumb'>My Projects</div>
 <div class='transparent'>
-  <div class='heading'>Skills Summary</div>
+  <div class='heading'>Ruby</div>
+  <div class='sub-heading'>Terminal application "Pantry App"</div>
   <div class='main-content'>
-    <table>
-      <tr>
-        <td><b>Technical skills:</b></td>
-        <td>Ruby, Rails, Python</br>HTML, CSS, JS</br>SQL, R, Tableau</br></br></td>
-      </tr>
-      <tr>
-        <td><b>QA:</b></td>
-        <td>Manual and automated testing</br>System, User acceptance testing</br>Smoke, Regression, Exploratory, Usability testing</br>ISTQB certified</br></br></td>
-      </tr>
-      <tr>
-        <td><b>BA:</b></td>
-        <td>User requirements analysis, Business processes analysis</br>Fostering greater collaboration between IT project teams and business</br></br></td>
-      </tr>
-      <tr>
-        <td><b>Customer support:</b></td>
-        <td>Demonstrate proactive customer facing approach in providing excellent support to internal and external Clients, experienced in liaising with the Clients/business and IT teams</br>4+ years on Customer facing role in Australia</br></br></td>
-      </tr>
-      <tr>
-        <td><b>Communication skills:</b></td>
-        <td>Well able to communicate complex IT solutions the business audience with demonstrated ability to provide information of a technical nature to non-technical clients in engaging manner with a high level of customer service</br></br></td>
-      </tr>
-    </table>
+    This application was developed in pair with Jake Metz.</br>
+    Our application solves the problem the following problems:
+    <ul><li>what ingredients to buy for some recipe without need af phisically searching your pantry?</li>
+    <li>what can be cooked using just the ingredients you’ve got?</li>
+    <li>minimising the food waste</li></ul></br>
+    <img src="img/pantryapp.png">
+    The project is implemented as a terminal application which has the following modules:
+  <ul><li>Pantryapp: Creates an empty list of items in the pantry on the beginning of session, greets the user and prompts for options to choose. Depending on the user’s choise the methods of one or another module are executed.</li>
+<li>Add_food: Asks user for the name of the food he wants to add and the amount of this food. If the item is already in the list, the application adds the amount to appropriate item. If the item is not in the list it adds it to the list along with the amount.</li>
+<li>Take_food_out: Asks user for the name of the food he wants to take out of the pantry and the amount of this food. If the item is in the list, the application deducts the amount for appropriate item. If the item is not in the list the system warns the user. If the amount of certain product after taking out is 0 the system removes the item from the list.</li>
+<li>List_food: Shows inventory of food items in the pantry.</li>
+<li>Find_food: Asks user for the name of the food he is checking for and if it’s available it’s amount is shown on the screen. Otherwise the system shows the message that there is no such an item in the pantry.</li>
+<li>Shopping_list: Asks the user to type the ingredients names from the recipe and their amounts. After user responds he has finished the system shows on the screen the list of items in the shopping list along with their amounts. </li>
+The data structure used for the items in the pantry and ingridients lists is hash (item name as a key and amount as value).
+</br></br>
+The following <b>3rd party components</b> have been used in the project:
+  <ul><li>Highline Gem (<a href="https://rubygems.org/gems/highline/">https://rubygems.org/gems/highline/</a>) - is used for the main program menu, making the development process faster and the code more maintainable.</li>
+  <li>Colorize Gem (<a href="https://rubygems.org/gems/colorize">https://rubygems.org/gems/colorize</a>) – is used to visually stracture the output to  make the user interface more friendly.</li>
   </div>
+</div>
 </div>
 
-<div class='transparent'>
-  <div class='heading'>Experience</div>
-  <div class='sub-heading'>Experience</div>
-  <div class='main-content'>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-    fringilla erat eu diam tristique, nec suscipit leo maximus. Donec laoreet
-    magna arcu, vel tincidunt ante aliquam quis. Aenean sit amet lectus pulvinar,
-    viverra odio eget, auctor mauris. Phasellus et nunc ac leo suscipit
-    consectetur. Nulla facilisi. Pellentesque bibendum, metus non volutpat
-    posuere, urna leo luctus velit, nec dictum magna dolor at nunc. Nulla tellus
-    enim, accumsan vitae aliquet sed, dictum a elit. Nam egestas vestibulum erat,
-    venenatis auctor libero eleifend quis. Vivamus mattis nisi nec porta egestas.
-    Proin interdum nisl a augue ullamcorper sodales. Ut pulvinar felis vel augue
-    congue euismod. Vivamus et nulla cursus, molestie augue in, viverra nibh.
-    Suspendisse quis purus vitae metus dapibus pellentesque.
-  </div>
-</div>
 
-<div class='transparent'>
-  <div class='heading'>Education</div>
-  <div class='main-content'>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-    fringilla erat eu diam tristique, nec suscipit leo maximus. Donec laoreet
-    magna arcu, vel tincidunt ante aliquam quis. Aenean sit amet lectus pulvinar,
-    viverra odio eget, auctor mauris. Phasellus et nunc ac leo suscipit
-    consectetur. Nulla facilisi. Pellentesque bibendum, metus non volutpat
-    posuere, urna leo luctus velit, nec dictum magna dolor at nunc. Nulla tellus
-    enim, accumsan vitae aliquet sed, dictum a elit. Nam egestas vestibulum erat,
-    venenatis auctor libero eleifend quis. Vivamus mattis nisi nec porta egestas.
-    Proin interdum nisl a augue ullamcorper sodales. Ut pulvinar felis vel augue
-    congue euismod. Vivamus et nulla cursus, molestie augue in, viverra nibh.
-    Suspendisse quis purus vitae metus dapibus pellentesque.
-  </div>
-</div>
 <div class='footer'>Copyright © 2018 Maryna Golovko. All rights reserved.</div>
 
 </body>
