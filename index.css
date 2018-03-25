@@ -79,6 +79,13 @@ input[type=checkbox]:checked ~ #menu{
   margin: 1em 0 0 1em;
 }
 
+.transparent-about {
+  float: left;
+  width: 98%;
+  /* background:rgba(255,255,255,0.4); */
+  margin: 1em 0 0 1em;
+}
+
 .right-column {
   float: right;
   width: 20%;
@@ -198,6 +205,19 @@ td {
     margin: auto;
     margin-top: 10em;
     margin-bottom: 2em;
+}
+
+.my-photo-about {
+    height: auto;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 50%;
+    image-orientation: 90deg;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .link {
