@@ -97,7 +97,7 @@ input[type=checkbox]:checked ~ #menu{
   margin: 1em 0 0 1em;
 }
 
-@media screen and (max-width : 760px){
+@media screen and (max-width : 940px){
     #menu {
         position: static;
         display: none;
@@ -209,7 +209,7 @@ td {
     display: flex;
     margin: auto;
     margin-top: 10em;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
 }
 
 .link {
