@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisioDocument>
+	<DocumentProperties>
+		<Title></Title>
+		<HyperlinkBase href=""></HyperlinkBase>
+	</DocumentProperties>
+	<Pages>
+		<Page ID="5" Name="Portfolio" NameU="Portfolio">
+			<Shapes>
+				<Shape ID="1" UniqueID="{E7EA7C81-249F-4CE1-9344-C3ED4E087B8B}" Name="Sheet.1" NameU="Sheet.1">
+					<Text>PORTFOLIO</Text>
+					<XForm>
+						<PinX Unit="MM">4.039151356080490</PinX>
+						<PinY Unit="MM">9.705818022747156</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="2" UniqueID="{581AE2FF-4D9B-4F30-AE36-6BD40DF5009E}" Name="Sheet.2" NameU="Sheet.2">
+					<XForm>
+						<PinX Unit="MM">4.173228346456693</PinX>
+						<PinY Unit="MM">8.385826771653543</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="3" UniqueID="{C944B9E6-4C7A-491E-84D1-BC6DD8AD0921}" Name="Sheet.3" NameU="Sheet.3">
+					<Text>&lt;Project name&gt;</Text>
+					<XForm>
+						<PinX Unit="MM">3.425196850393701</PinX>
+						<PinY Unit="MM">9.365157480314959</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="4" UniqueID="{6F813FF8-538E-4366-B38B-9586B54B01FC}" Name="Sheet.4" NameU="Sheet.4">
+					<XForm>
+						<PinX Unit="MM">1.240157480314961</PinX>
+						<PinY Unit="MM">8.444881889763780</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="7" UniqueID="{D876E40B-861B-4F5E-99CC-7D17E9AFC7D4}" Name="Sheet.7" NameU="Sheet.7">
+					<Text>Illustration</Text>
+					<XForm>
+						<PinX Unit="MM">1.240157480314961</PinX>
+						<PinY Unit="MM">8.444881889763780</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="8" UniqueID="{B0A11156-57AD-4580-8E27-E7B2E87B72DC}" Name="Sheet.8" NameU="Sheet.8">
+					<XForm>
+						<PinX Unit="MM">3.444881889763779</PinX>
+						<PinY Unit="MM">6.889763779527558</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="9" UniqueID="{50879E2D-6898-4F7D-9B29-D5CA288BEFA4}" Name="Sheet.9" NameU="Sheet.9">
+					<XForm>
+						<PinX Unit="MM">4.192913385826771</PinX>
+						<PinY Unit="MM">4.709645669291338</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="10" UniqueID="{0EF55DE9-26CC-40CC-B419-432FA12770C3}" Name="Sheet.10" NameU="Sheet.10">
+					<Text>&lt;Project name&gt;</Text>
+					<XForm>
+						<PinX Unit="MM">3.444881889763780</PinX>
+						<PinY Unit="MM">5.688976377952755</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="11" UniqueID="{C2D09253-266D-421F-B833-18129F56575E}" Name="Sheet.11" NameU="Sheet.11">
+					<XForm>
+						<PinX Unit="MM">1.259842519685040</PinX>
+						<PinY Unit="MM">4.768700787401575</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="14" UniqueID="{D89AE3C3-1854-49D3-9474-928E0DB69ED2}" Name="Sheet.14" NameU="Sheet.14">
+					<Text>Illustration</Text>
+					<XForm>
+						<PinX Unit="MM">1.259842519685040</PinX>
+						<PinY Unit="MM">4.768700787401575</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="15" UniqueID="{23327417-2CAF-4F05-B3C6-2F1ECB412F55}" Name="Sheet.15" NameU="Sheet.15">
+					<XForm>
+						<PinX Unit="MM">3.464566929133857</PinX>
+						<PinY Unit="MM">3.213582677165354</PinY>
+					</XForm>
+				</Shape>
+			</Shapes>
+		</Page>
+		<Page ID="6" Name="Experience" NameU="Experience">
+			<Shapes>
+				<Shape ID="1" UniqueID="{A165579D-E957-4445-9DBB-6A515E0DFF0F}" Name="Sheet.1" NameU="Sheet.1">
+					<Text>EXPERIENCE</Text>
+					<XForm>
+						<PinX Unit="MM">1.059273840769903</PinX>
+						<PinY Unit="MM">9.703630796150479</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="2" UniqueID="{2C85BBB6-FFA2-4DCC-85BC-9AA654029D68}" Name="Sheet.2" NameU="Sheet.2">
+					<XForm>
+						<PinX Unit="MM">3.307086614173227</PinX>
+						<PinY Unit="MM">8.307086614173228</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="3" UniqueID="{C91C7858-49C9-4566-9F46-278D35FAAA70}" Name="Sheet.3" NameU="Sheet.3">
+					<Text>Technologies and skills</Text>
+					<XForm>
+						<PinX Unit="MM">3.307086614173229</PinX>
+						<PinY Unit="MM">9.247047244094487</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="4" UniqueID="{B2280DA2-F6D0-48BE-BD53-05A33403BE5E}" Name="Sheet.4" NameU="Sheet.4">
+					<XForm>
+						<PinX Unit="MM">3.307086614173229</PinX>
+						<PinY Unit="MM">5.492125984251967</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="5" UniqueID="{347C3FFF-3052-41C0-BDFF-E0AAA3D02136}" Name="Sheet.5" NameU="Sheet.5">
+					<Text>Companies and roles</Text>
+					<XForm>
+						<PinX Unit="MM">3.307086614173229</PinX>
+						<PinY Unit="MM">7.130905511811022</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="6" UniqueID="{6B01CC21-77AD-442B-860C-D19022FDB8DF}" Name="Sheet.6" NameU="Sheet.6">
+					<XForm>
+						<PinX Unit="MM">3.307086614173227</PinX>
+						<PinY Unit="MM">2.677165354330707</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="7" UniqueID="{4FEFF3E5-1BEC-4FBD-97ED-6D5046F9BAD7}" Name="Sheet.7" NameU="Sheet.7">
+					<Text>Degrees and certifications</Text>
+					<XForm>
+						<PinX Unit="MM">3.307086614173227</PinX>
+						<PinY Unit="MM">3.617125984251965</PinY>
+					</XForm>
+				</Shape>
+			</Shapes>
+		</Page>
+		<Page ID="7" Name="Interests" NameU="Interests">
+			<Shapes>
+				<Shape ID="1" UniqueID="{C7F0777B-D4D8-403E-A188-EB79FB4BD9B7}" Name="Sheet.1" NameU="Sheet.1">
+					<XForm>
+						<PinX Unit="MM">3.149606299212598</PinX>
+						<PinY Unit="MM">7.216658464566928</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="2" UniqueID="{6138638A-507A-4B07-9C68-92E1B8A6154F}" Name="Sheet.2" NameU="Sheet.2">
+					<Text>INTERESTS</Text>
+					<XForm>
+						<PinX Unit="MM">2.496281714785652</PinX>
+						<PinY Unit="MM">9.745188101487313</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="3" UniqueID="{E0BE1BE7-E0B7-4852-8F54-040B8A37AFB5}" Name="Sheet.3" NameU="Sheet.3">
+					<XForm>
+						<PinX Unit="MM">3.543307086614172</PinX>
+						<PinY Unit="MM">4.488188976377952</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="4" UniqueID="{933A4874-7979-487C-9642-1807526636E3}" Name="Sheet.4" NameU="Sheet.4">
+					<Text>&lt;Some topic&gt;</Text>
+					<XForm>
+						<PinX Unit="MM">3.543307086614174</PinX>
+						<PinY Unit="MM">5.231299212598424</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="5" UniqueID="{168F6F6E-171C-479C-9186-18F8243A6CE7}" Name="Sheet.5" NameU="Sheet.5">
+					<XForm>
+						<PinX Unit="MM">3.543307086614172</PinX>
+						<PinY Unit="MM">2.883858267716536</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="6" UniqueID="{1525F71C-847A-4838-8260-CE8D8929AAA3}" Name="Sheet.6" NameU="Sheet.6">
+					<Text>&lt;Some topic&gt;</Text>
+					<XForm>
+						<PinX Unit="MM">3.543307086614174</PinX>
+						<PinY Unit="MM">3.626968503937008</PinY>
+					</XForm>
+				</Shape>
+			</Shapes>
+		</Page>
+		<Page ID="0" Name="Blog" NameU="Blog">
+			<Shapes>
+				<Shape ID="1" UniqueID="{DBBC9B96-3E1A-473F-AC2F-4C7D4AC70BB3}" Name="Sheet.1" NameU="Sheet.1">
+					<XForm>
+						<PinX Unit="MM">4.212598425196851</PinX>
+						<PinY Unit="MM">8.070866141732283</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="2" UniqueID="{D8DA4219-6CAC-4C68-8AF1-3BE92C343330}" Name="Sheet.2" NameU="Sheet.2">
+					<Text>Post header / Date</Text>
+					<XForm>
+						<PinX Unit="MM">3.503937007874018</PinX>
+						<PinY Unit="MM">8.971456692913385</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="3" UniqueID="{B3929A2B-7678-4108-84A9-553B5FB00E02}" Name="Sheet.3" NameU="Sheet.3">
+					<XForm>
+						<PinX Unit="MM">1.318897637795278</PinX>
+						<PinY Unit="MM">8.051181102362206</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="6" UniqueID="{BA8660E2-F3B8-4588-8133-BEDB2FBA29BE}" Name="Sheet.6" NameU="Sheet.6">
+					<Text>Illustration</Text>
+					<XForm>
+						<PinX Unit="MM">1.318897637795278</PinX>
+						<PinY Unit="MM">8.051181102362206</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="7" UniqueID="{FAE4A511-FD0F-4137-89C6-061D9D6810B1}" Name="Command button" NameU="Command button" Master="5">
+					<Text>Read more...</Text>
+					<XForm>
+						<PinX Unit="MM">5.939960629921259</PinX>
+						<PinY Unit="MM">7.199803149606299</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="13" UniqueID="{A8A16C7C-F28C-4008-9F2E-A9A137B33A23}" Name="Sheet.13" NameU="Sheet.13">
+					<Text>BLOG</Text>
+					<XForm>
+						<PinX Unit="MM">5.495844269466317</PinX>
+						<PinY Unit="MM">9.685039370078741</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="14" UniqueID="{41C1BAF1-80CD-4C4C-83E7-6C19F8583F87}" Name="Sheet.14" NameU="Sheet.14">
+					<XForm>
+						<PinX Unit="MM">4.232283464566928</PinX>
+						<PinY Unit="MM">5.772637795275590</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="15" UniqueID="{C0AAD974-3ACE-4645-9B5D-A27E3D93B7AB}" Name="Sheet.15" NameU="Sheet.15">
+					<Text>Post header / Date</Text>
+					<XForm>
+						<PinX Unit="MM">3.523622047244095</PinX>
+						<PinY Unit="MM">6.673228346456692</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="16" UniqueID="{26348351-45E5-4BC3-8D15-7F6D0C92921F}" Name="Sheet.16" NameU="Sheet.16">
+					<XForm>
+						<PinX Unit="MM">1.338582677165356</PinX>
+						<PinY Unit="MM">5.752952755905512</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="19" UniqueID="{AE1A17C5-C490-44DF-9423-D8E3084B4B0E}" Name="Sheet.19" NameU="Sheet.19">
+					<Text>Illustration</Text>
+					<XForm>
+						<PinX Unit="MM">1.338582677165356</PinX>
+						<PinY Unit="MM">5.752952755905512</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="20" UniqueID="{1D02A288-8241-4982-9635-DC6A705366F7}" Name="Command button.20" NameU="Command button.20" Master="5">
+					<Text>Read more...</Text>
+					<XForm>
+						<PinX Unit="MM">5.959645669291336</PinX>
+						<PinY Unit="MM">4.901574803149606</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="26" UniqueID="{ABB3F4D5-7D39-414F-A71D-72D9E20F3ADA}" Name="Sheet.26" NameU="Sheet.26">
+					<XForm>
+						<PinX Unit="MM">4.192913385826770</PinX>
+						<PinY Unit="MM">3.307086614173228</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="27" UniqueID="{32C81901-2184-4507-A6BD-CBFD7FBB18DA}" Name="Sheet.27" NameU="Sheet.27">
+					<Text>Post header / Date</Text>
+					<XForm>
+						<PinX Unit="MM">3.484251968503937</PinX>
+						<PinY Unit="MM">4.207677165354330</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="28" UniqueID="{7308AF5A-6702-4C60-8AA2-7626870B0E17}" Name="Sheet.28" NameU="Sheet.28">
+					<XForm>
+						<PinX Unit="MM">1.299212598425198</PinX>
+						<PinY Unit="MM">3.287401574803150</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="31" UniqueID="{B6D330C3-B1CD-4E93-A433-772F5A13D02A}" Name="Sheet.31" NameU="Sheet.31">
+					<Text>Illustration</Text>
+					<XForm>
+						<PinX Unit="MM">1.299212598425198</PinX>
+						<PinY Unit="MM">3.287401574803150</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="32" UniqueID="{1E900731-90C5-43E2-9F23-BCB6AAE88A31}" Name="Command button.32" NameU="Command button.32" Master="5">
+					<Text>Read more...</Text>
+					<XForm>
+						<PinX Unit="MM">5.920275590551179</PinX>
+						<PinY Unit="MM">2.436023622047244</PinY>
+					</XForm>
+				</Shape>
+			</Shapes>
+		</Page>
+		<Page ID="4" Name="Background-1" NameU="Background-1">
+			<Shapes>
+				<Shape ID="1" UniqueID="{018318A0-292F-4C11-B983-86B95186750D}" Name="Sheet.1" NameU="Sheet.1">
+					<XForm>
+						<PinX Unit="MM">4.146981627296587</PinX>
+						<PinY Unit="MM">10.531496062992126</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="4" UniqueID="{566EFFA6-5F3A-4619-88E7-FFEDA2FDE16B}" Name="Sheet.4" NameU="Sheet.4">
+					<Text>Some header</Text>
+					<XForm>
+						<PinX Unit="MM">4.146981627296587</PinX>
+						<PinY Unit="MM">10.531496062992126</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="5" UniqueID="{3115FE03-CE48-45C2-A2DC-B9762773BAD1}" Name="Sheet.5" NameU="Sheet.5">
+					<Text>PORTFOLIO</Text>
+					<XForm>
+						<PinX Unit="MM">3.972659667541556</PinX>
+						<PinY Unit="MM">9.703630796150479</PinY>
+					</XForm>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description></HLURL:Description>
+										<HLURL:Address></HLURL:Address>
+										<HLURL:SubAddress>Portfolio</HLURL:SubAddress>
+										<HLURL:ExtraInfo></HLURL:ExtraInfo>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:NewWindow>0</HLURL:NewWindow>
+										<HLURL:AbsoluteURL>C:\Users\Marina\Documents\CA\Portfolio website.vsd#Portfolio</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+				</Shape>
+				<Shape ID="6" UniqueID="{38220B81-E967-4BE9-B2E0-976DDC826D43}" Name="Sheet.6" NameU="Sheet.6">
+					<Text>EXPERIENCE</Text>
+					<XForm>
+						<PinX Unit="MM">0.954286964129484</PinX>
+						<PinY Unit="MM">9.703630796150479</PinY>
+					</XForm>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description></HLURL:Description>
+										<HLURL:Address></HLURL:Address>
+										<HLURL:SubAddress>Experience</HLURL:SubAddress>
+										<HLURL:ExtraInfo></HLURL:ExtraInfo>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:NewWindow>0</HLURL:NewWindow>
+										<HLURL:AbsoluteURL>C:\Users\Marina\Documents\CA\Portfolio website.vsd#Experience</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+				</Shape>
+				<Shape ID="7" UniqueID="{34FB33F0-2B80-453A-93B9-6C5057C769F0}" Name="Sheet.7" NameU="Sheet.7">
+					<Text>INTERESTS</Text>
+					<XForm>
+						<PinX Unit="MM">2.463473315835520</PinX>
+						<PinY Unit="MM">9.703630796150479</PinY>
+					</XForm>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description></HLURL:Description>
+										<HLURL:Address></HLURL:Address>
+										<HLURL:SubAddress>Interests</HLURL:SubAddress>
+										<HLURL:ExtraInfo></HLURL:ExtraInfo>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:NewWindow>0</HLURL:NewWindow>
+										<HLURL:AbsoluteURL>C:\Users\Marina\Documents\CA\Portfolio website.vsd#Interests</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+				</Shape>
+				<Shape ID="8" UniqueID="{9FCBD282-3157-42F9-802C-2079AF0EEA2F}" Name="Sheet.8" NameU="Sheet.8">
+					<Text>BLOG</Text>
+					<XForm>
+						<PinX Unit="MM">5.481846019247594</PinX>
+						<PinY Unit="MM">9.703630796150479</PinY>
+					</XForm>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description></HLURL:Description>
+										<HLURL:Address></HLURL:Address>
+										<HLURL:SubAddress>Blog</HLURL:SubAddress>
+										<HLURL:ExtraInfo></HLURL:ExtraInfo>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:NewWindow>0</HLURL:NewWindow>
+										<HLURL:AbsoluteURL>C:\Users\Marina\Documents\CA\Portfolio website.vsd#Blog</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+				</Shape>
+				<Shape ID="9" UniqueID="{5527C979-DD36-400D-8132-6FF906BDDE41}" Name="Sheet.9" NameU="Sheet.9">
+					<XForm>
+						<PinX Unit="MM">7.001312335958004</PinX>
+						<PinY Unit="MM">9.645669291338582</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="10" UniqueID="{04F3E443-0794-47F8-9D2D-858B51A61ECA}" Name="Sheet.10" NameU="Sheet.10">
+					<XForm>
+						<PinX Unit="MM">7.557107119422573</PinX>
+						<PinY Unit="MM">9.645669291338582</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="13" UniqueID="{E7A6DC94-7379-453D-93CF-37A8129AF138}" Name="Sheet.13" NameU="Sheet.13">
+					<Text>A couple of words about myself</Text>
+					<XForm>
+						<PinX Unit="MM">7.286745406824147</PinX>
+						<PinY Unit="MM">7.440944881889763</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="14" UniqueID="{37CD0614-CFA2-411B-9D38-8C23049041B1}" Name="Sheet.14" NameU="Sheet.14">
+					<XForm>
+						<PinX Unit="MM">7.316272965879263</PinX>
+						<PinY Unit="MM">8.799212598425195</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="15" UniqueID="{08B19EDB-4797-470C-B85B-F8E377968EB7}" Name="Sheet.15" NameU="Sheet.15">
+					<Text>My photo</Text>
+					<XForm>
+						<PinX Unit="MM">7.316272965879264</PinX>
+						<PinY Unit="MM">8.799212598425196</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="22" UniqueID="{EA86D113-9022-4FDF-ABAB-55B5A8596DC7}" Name="Sheet.22" NameU="Sheet.22">
+					<Text>Mini feedback form</Text>
+					<XForm>
+						<PinX Unit="MM">7.286745406824147</PinX>
+						<PinY Unit="MM">5.925196850393701</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="23" UniqueID="{0078FD83-D34B-475F-862B-D245AE5ABF39}" Name="Text box (multi-line)" NameU="Text box (multi-line)" Master="2">
+					<XForm>
+						<PinX Unit="MM">7.316272965879265</PinX>
+						<PinY Unit="MM">6.122047244094488</PinY>
+					</XForm>
+					<Prop ID="1" Name="VerticalBar" NameU="VerticalBar">
+						<Value Unit="STR">50</Value>
+						<Label>Vertical Scroll  Bar Thumb Size (%)</Label>
+					</Prop>
+					<Prop ID="2" Name="HorizontalBar" NameU="HorizontalBar">
+						<Value Unit="STR">50</Value>
+						<Label>Horizontal Scroll Bar Thumb Size (%)</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="66" UniqueID="{07AE6DD3-982D-409A-890B-9BC46788558B}" Name="Sheet.66" NameU="Sheet.66">
+					<Text>Mini feedback form</Text>
+					<XForm>
+						<PinX Unit="MM">7.286745406824147</PinX>
+						<PinY Unit="MM">4.625984251968504</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="67" UniqueID="{B5CEFA13-FE26-4CE1-9CC5-BAFC013B7EA1}" Name="Text box (multi-line).67" NameU="Text box (multi-line).67" Master="2">
+					<XForm>
+						<PinX Unit="MM">7.316272965879265</PinX>
+						<PinY Unit="MM">4.822834645669291</PinY>
+					</XForm>
+					<Prop ID="1" Name="VerticalBar" NameU="VerticalBar">
+						<Value Unit="STR">50</Value>
+						<Label>Vertical Scroll  Bar Thumb Size (%)</Label>
+					</Prop>
+					<Prop ID="2" Name="HorizontalBar" NameU="HorizontalBar">
+						<Value Unit="STR">50</Value>
+						<Label>Horizontal Scroll Bar Thumb Size (%)</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="110" UniqueID="{F13A0C5F-DC82-4A1B-9D20-2A728CDEA201}" Name="Sheet.110" NameU="Sheet.110">
+					<Text>Mini feedback form</Text>
+					<XForm>
+						<PinX Unit="MM">7.286745406824147</PinX>
+						<PinY Unit="MM">3.307086614173228</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="111" UniqueID="{AEA209A6-74AA-4CFC-A2BE-3946D2291A35}" Name="Text box (multi-line).111" NameU="Text box (multi-line).111" Master="2">
+					<XForm>
+						<PinX Unit="MM">7.316272965879265</PinX>
+						<PinY Unit="MM">3.503937007874015</PinY>
+					</XForm>
+					<Prop ID="1" Name="VerticalBar" NameU="VerticalBar">
+						<Value Unit="STR">50</Value>
+						<Label>Vertical Scroll  Bar Thumb Size (%)</Label>
+					</Prop>
+					<Prop ID="2" Name="HorizontalBar" NameU="HorizontalBar">
+						<Value Unit="STR">50</Value>
+						<Label>Horizontal Scroll Bar Thumb Size (%)</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="154" UniqueID="{60A7C3C0-3E1C-4458-A5DB-CAB8452EDFB4}" Name="Sheet.154" NameU="Sheet.154">
+					<Text>Mini feedback form</Text>
+					<XForm>
+						<PinX Unit="MM">7.286745406824147</PinX>
+						<PinY Unit="MM">1.988188976377951</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="155" UniqueID="{ADA14BEC-8C2B-4C17-83A0-87C66CB2515C}" Name="Text box (multi-line).155" NameU="Text box (multi-line).155" Master="2">
+					<XForm>
+						<PinX Unit="MM">7.316272965879265</PinX>
+						<PinY Unit="MM">2.185039370078738</PinY>
+					</XForm>
+					<Prop ID="1" Name="VerticalBar" NameU="VerticalBar">
+						<Value Unit="STR">50</Value>
+						<Label>Vertical Scroll  Bar Thumb Size (%)</Label>
+					</Prop>
+					<Prop ID="2" Name="HorizontalBar" NameU="HorizontalBar">
+						<Value Unit="STR">50</Value>
+						<Label>Horizontal Scroll Bar Thumb Size (%)</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="198" UniqueID="{6AEC65A8-3219-4356-9A5A-9126D8BA8467}" Name="Sheet.198" NameU="Sheet.198">
+					<XForm>
+						<PinX Unit="MM">4.097769028871390</PinX>
+						<PinY Unit="MM">1.003937007874015</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="199" UniqueID="{848C95F7-464B-4548-8DB4-D20E9972F036}" Name="Sheet.199" NameU="Sheet.199">
+					<Text>Some footer</Text>
+					<XForm>
+						<PinX Unit="MM">4.097769028871390</PinX>
+						<PinY Unit="MM">1.003937007874015</PinY>
+					</XForm>
+				</Shape>
+			</Shapes>
+		</Page>
+	</Pages>
+</VisioDocument>

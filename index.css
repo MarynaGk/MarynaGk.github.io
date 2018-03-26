@@ -61,7 +61,7 @@ input[type=checkbox]:checked ~ #menu{
 
 .show-menu {
     text-decoration: none;
-    color: #dd3700;
+    color: #fff;
     background: #83ae92;
     text-align: center;
     font-weight: bold;
@@ -209,10 +209,6 @@ img {
 td {
   vertical-align: top;
   text-align: justify;
-}
-
-tr {
-    margin: 1em;
 }
 
 .my-photo {

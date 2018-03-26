@@ -1,0 +1,189 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml" 
+ xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5"/>
+<link rel="stylesheet" type="text/css" href="visio.css"/>
+<title>Portfolio website</title>
+<style type="text/css">
+	 v\:* { behavior: url(#default#VML); }
+</style>
+
+<script src="vml_1.js" type="text/jscript" language="jscript"></script>
+
+<script type="text/jscript" language="jscript">
+
+	var pageID = 0;
+	var viewMgr = null;
+
+	if (parent.g_FirstPageToLoad != null && parent.g_FirstPageToLoad.length > 0)
+	{
+		if (parent.g_FileList[parent.g_CurPageIndex].PageID != pageID)
+		{
+			location.replace(parent.g_FileList[parent.g_CurPageIndex].PriImage);
+		}
+
+		parent.g_FirstPageToLoad = null;
+	}
+
+	function getPNZ()
+	{
+		var rawHTML = VMLDiv.innerHTML;
+		var strReturn = ""
+		
+		strReturn = rawHTML.slice( rawHTML.indexOf( '<v:group' ), rawHTML.indexOf( "</v:shape>" ) );
+		strReturn += "</v:shape></v:group>\n";
+				
+		return strReturn;
+	}
+	
+	function load()
+	{
+		viewMgr = new parent.CViewMgr("ConvertedImage", "arrowDiv");
+
+		viewMgr.put_Location = ViewMgrSetVMLLocation;
+
+
+		viewMgr.visBBoxLeft = 0.145919;
+		viewMgr.visBBoxRight = 8.148045;
+		viewMgr.visBBoxBottom = 0.743031;
+		viewMgr.visBBoxTop = 10.989252;
+
+		viewMgr.Zoom = VMLZoomChange;
+		viewMgr.setView= VMLSetView;
+
+		viewMgr.SupportsDetails = true;
+		viewMgr.SupportsSearch = true;
+
+		parent.viewMgr = viewMgr;
+
+		fit();
+	}
+
+	function unload()
+	{
+		viewMgr = null;
+		parent.viewMgr = null;
+	}
+
+	function fit()
+	{
+		if(parent.frmToolbar)
+		{
+			if (parent.g_WidgetsLoaded)
+			{
+				var zoom100 = parent.frmToolbar.document.all('a100');
+				if (zoom100)
+				{
+					parent.viewMgr.PostZoomProcessing = PostZoomProcessing;
+					zoom100.click();
+				}
+				else
+				{
+					parent.viewMgr.PostZoomProcessing = PostZoomProcessing;
+					viewMgr.Zoom(100);
+				}
+			}
+			else
+			{
+				window.setTimeout("fit()", 500);
+			}
+		}	
+		else
+		{
+			parent.viewMgr.PostZoomProcessing = PostZoomProcessing;
+			viewMgr.Zoom(100);
+		}
+	}
+
+	function PostZoomProcessing (newZoomLevel)
+	{
+		parent.viewMgr.PostZoomProcessing = null;
+		var pageIndex = parent.PageIndexFromID (pageID);
+		parent.viewMgr.getPNZ = getPNZ;
+		parent.CurPageUpdate (pageIndex);
+	}
+
+
+	
+	var isUpLevel = parent.isUpLevel;
+	var OnShapeClick = parent.OnShapeClick;
+	var OnShapeKey = parent.OnShapeKey;
+	var UpdateTooltip = parent.UpdateTooltip;
+	var clickMenu = parent.clickMenu;
+	var toggleMenuDiv = parent.toggleMenuDiv;
+	var toggleMenuLink = parent.toggleMenuLink;
+	var GoToPage = parent.GoToPage;
+
+	window.onload = load;
+	window.onunload = unload;
+	document.onclick = clickMenu;
+
+
+
+
+</script>
+
+</head>
+
+<body style="MARGIN:10px" onresize="VMLOnResize();" onscroll="VMLOnScroll();">
+
+<div id="arrowdiv" style="position:absolute;top:0;left:0;visibility:hidden;z-index:5">
+<img id="arrowgif" alt="Shows the location of the selected shape" src="arrow.gif"/>
+</div>
+
+<div id="menu1" onclick="clickMenu()" class="hlMenu">
+</div>
+
+
+
+
+<div id="VMLDiv" >
+
+
+<v:group  id="ConvertedImage" style="width:3.123933in;height:4.000000in;position:absolute;visibility=hidden;" coordSize="1562,2000" coordOrigin="-1000,-1000" >
+
+<v:shapetype 
+  id="VISSHAPE"
+  target="_parent"
+  coordsize="1562,2000"
+  coordorigin="-1000,-1000"
+  stroked="f"
+  strokecolor="red"
+  filled="t"
+>
+<v:fill opacity="0.0"/>
+</v:shapetype>
+
+
+<v:shape style="top:-1000.0;left:-1000.0;width:1562.0;height:2000.0;position:absolute" coordSize="1562,2000" coordOrigin="-1000,-1000" >
+<v:imagedata src="vml_4.emz"/>
+</v:shape>
+
+<v:shape type="#VISSHAPE"  origHref="" tabindex="1" title="PORTFOLIO" origTitle="PORTFOLIO"  style="top:-1000;left:-1000;width:1562;height:2000;position:absolute" path=" m -316,-755 l -316,-726 l -190,-726 l -190,-755 l -316,-755xe" onmouseover="UpdateTooltip(this,4,5)" onclick="OnShapeClick(4,5)" onfocus="UpdateTooltip(this,4,5);" onkeyup="OnShapeKey(4,5)"/> 
+
+<v:shape type="#VISSHAPE"  origHref="" tabindex="1" title="EXPERIENCE" origTitle="EXPERIENCE"  style="top:-1000;left:-1000;width:1562;height:2000;position:absolute" path=" m -909,-755 l -909,-726 l -770,-726 l -770,-755 l -909,-755xe" onmouseover="UpdateTooltip(this,4,6)" onclick="OnShapeClick(4,6)" onfocus="UpdateTooltip(this,4,6);" onkeyup="OnShapeKey(4,6)"/> 
+
+<v:shape type="#VISSHAPE"  origHref="" tabindex="1" title="INTERESTS" origTitle="INTERESTS"  style="top:-1000;left:-1000;width:1562;height:2000;position:absolute" path=" m -607,-755 l -607,-726 l -486,-726 l -486,-755 l -607,-755xe" onmouseover="UpdateTooltip(this,4,7)" onclick="OnShapeClick(4,7)" onfocus="UpdateTooltip(this,4,7);" onkeyup="OnShapeKey(4,7)"/> 
+
+<v:shape type="#VISSHAPE"  origHref="" tabindex="1" title="BLOG" origTitle="BLOG"  style="top:-1000;left:-1000;width:1562;height:2000;position:absolute" path=" m 9,-755 l 9,-726 l 72,-726 l 72,-755 l 9,-755xe" onmouseover="UpdateTooltip(this,4,8)" onclick="OnShapeClick(4,8)" onfocus="UpdateTooltip(this,4,8);" onkeyup="OnShapeKey(4,8)"/> 
+
+<v:shape type="#VISSHAPE"   tabindex="1" title="" origTitle=""  style="top:-1000;left:-1000;width:1562;height:2000;position:absolute" path=" m 282,65 l 512,65 l 282,65x m 282,65 l 512,65 l 282,65x m 328,65 l 443,65 l 328,65x m 328,65 l 443,65 l 328,65xe" onmouseover="UpdateTooltip(this,4,23)" onclick="OnShapeClick(4,23)" onfocus="UpdateTooltip(this,4,23);" onkeyup="OnShapeKey(4,23)"/> 
+
+<v:shape type="#VISSHAPE"   tabindex="1" title="" origTitle=""  style="top:-1000;left:-1000;width:1562;height:2000;position:absolute" path=" m 282,318 l 512,318 l 282,318x m 282,318 l 512,318 l 282,318x m 328,318 l 443,318 l 328,318x m 328,318 l 443,318 l 328,318xe" onmouseover="UpdateTooltip(this,4,67)" onclick="OnShapeClick(4,67)" onfocus="UpdateTooltip(this,4,67);" onkeyup="OnShapeKey(4,67)"/> 
+
+<v:shape type="#VISSHAPE"   tabindex="1" title="" origTitle=""  style="top:-1000;left:-1000;width:1562;height:2000;position:absolute" path=" m 282,575 l 512,575 l 282,575x m 282,575 l 512,575 l 282,575x m 328,575 l 443,575 l 328,575x m 328,575 l 443,575 l 328,575xe" onmouseover="UpdateTooltip(this,4,111)" onclick="OnShapeClick(4,111)" onfocus="UpdateTooltip(this,4,111);" onkeyup="OnShapeKey(4,111)"/> 
+
+<v:shape type="#VISSHAPE"   tabindex="1" title="" origTitle=""  style="top:-1000;left:-1000;width:1562;height:2000;position:absolute" path=" m 282,831 l 512,831 l 282,831x m 282,831 l 512,831 l 282,831x m 328,831 l 443,831 l 328,831x m 328,831 l 443,831 l 328,831xe" onmouseover="UpdateTooltip(this,4,155)" onclick="OnShapeClick(4,155)" onfocus="UpdateTooltip(this,4,155);" onkeyup="OnShapeKey(4,155)"/> 
+
+</v:group>
+
+
+
+</div>
+
+
+
+</body>
+</html>
+
