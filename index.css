@@ -216,7 +216,6 @@ td {
     width: 80%;
     max-width: 200px;
     border-radius: 50%;
-    image-orientation: 90deg;
     display: flex;
     margin: auto;
     margin-top: 10em;
@@ -228,7 +227,6 @@ td {
     width: 100%;
     max-width: 300px;
     border-radius: 50%;
-    image-orientation: 90deg;
     margin-top: 2em;
     margin-bottom: 2em;
     display: flex;
